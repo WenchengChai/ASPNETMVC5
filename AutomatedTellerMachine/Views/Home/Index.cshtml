@@ -1,6 +1,5 @@
 ﻿@{
     ViewBag.Title = "Home Page";
-    //Layout = "MyLayout.cshtml";
 }
 
 
@@ -16,34 +15,3 @@
         <a href="#" class="btn btn-primary btn-large btn-block"><span class="glyphicon glyphicon-circle-arrow-up"></span> Deposit</a>
     </div>
 </div>
-
-
-@*
-    You are using @Request.Browser.Browser, and that's OK! Email us at support@mvcatm.com if you have any problems. Or send us a tweet @@mvcatm.
-
-    @{var amounts = new List<Decimal>{100, 25.50m, -40, 275.99m};
-    }
-
-    <ul>
-        @foreach(decimal amount in amounts)
-        {
-            <li>@formatAmount(amount)</li>
-            <text>plain text</text>
-            @:plain text
-        }
-    </ul>
-
-    @helper formatAmount(decimal amount)
-    {
-        var color = "green";
-        if (amount < 0)
-        {
-            color = "red";
-        }
-        <span style="color:@color">@String.Format("{0:c}", amount)</span>
-    }
-*@
-   
-@section scripts {
-    <script>var testing = true;</script>
-}

@@ -6,7 +6,7 @@
 2014-07-06 10:43:44,AutomatedTellerMachine\App_Start\IdentityConfig.cs
 2014-07-07 11:21:34,AutomatedTellerMachine\App_Start\RouteConfig.cs
 2014-07-06 10:43:44,AutomatedTellerMachine\App_Start\Startup.Auth.cs
-2014-07-07 17:39:44,AutomatedTellerMachine\AutomatedTellerMachine.csproj
+2014-07-08 03:52:46,AutomatedTellerMachine\AutomatedTellerMachine.csproj
 2014-07-06 10:56:46,AutomatedTellerMachine\AutomatedTellerMachine.Tests\App.config
 2014-07-06 10:57:30,AutomatedTellerMachine\AutomatedTellerMachine.Tests\AutomatedTellerMachine.Tests.csproj
 2014-07-06 10:44:10,AutomatedTellerMachine\AutomatedTellerMachine.Tests\Controllers\HomeControllerTest.cs
@@ -71,7 +71,7 @@
 2014-07-07 15:27:32,AutomatedTellerMachine\Views\Home\_ViewStart.cshtml
 2014-07-06 10:43:04,AutomatedTellerMachine\Views\Home\About.cshtml
 2014-07-25 02:34:12,AutomatedTellerMachine\Views\Home\Contact.cshtml
-2014-08-01 01:18:48,AutomatedTellerMachine\Views\Home\Index.cshtml
+2014-07-25 16:09:08,AutomatedTellerMachine\Views\Home\Index.cshtml
 2014-07-07 17:36:50,AutomatedTellerMachine\Views\Shared\_Layout.cshtml
 2014-07-07 16:12:32,AutomatedTellerMachine\Views\Shared\_LoginPartial.cshtml
 2014-07-06 10:43:44,AutomatedTellerMachine\Views\Shared\Error.cshtml
