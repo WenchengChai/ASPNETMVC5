@@ -50,7 +50,9 @@ namespace AutomatedTellerMachine.Controllers
             {
                 return Content(serial.ToLower());
             }
-            return Content(serial);
+            // return new HttpStatusCodeResult(403);
+            // return Json(new { name = "serial number", value = "serial" }, JsonRequestBehavior.AllowGet);
+            return RedirectToAction("Index");
         }
     }
 }
