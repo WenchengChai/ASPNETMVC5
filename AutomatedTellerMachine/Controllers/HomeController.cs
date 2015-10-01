@@ -8,21 +8,18 @@ namespace AutomatedTellerMachine.Controllers
 {
     public class HomeController : Controller
     {
-        // GET /home/index
-        [MyLoggingFilter]
+        // GET /home/index        
         public ActionResult Index()
-        {
-            // throw new StackOverflowException();
+        {            
             return View();
         }
 
-        // GET /home/about
-        // [ActionName("about-this-atm")]
+        // GET /home/about        
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
 
-            return View("About");
+            return View();
         }
                 
         public ActionResult Contact()
@@ -53,9 +50,7 @@ namespace AutomatedTellerMachine.Controllers
             {
                 return Content(serial.ToLower());
             }
-            // return new HttpStatusCodeResult(403);
-            // return Json(new { name = "serial number", value = "serial" }, JsonRequestBehavior.AllowGet);
-            return RedirectToAction("Index");
+            return Content(serial);
         }
     }
 }
