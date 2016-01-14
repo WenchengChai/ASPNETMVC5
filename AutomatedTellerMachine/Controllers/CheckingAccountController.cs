@@ -16,7 +16,7 @@ namespace AutomatedTellerMachine.Controllers
         // GET: CheckingAccount
         public ActionResult Index()
         {
-            return View();
+            return View();            
         }
 
         // GET: CheckingAccount/Details
@@ -43,7 +43,7 @@ namespace AutomatedTellerMachine.Controllers
         public ActionResult Statement(int id)
         {
             var checkingAccount = db.CheckingAccounts.Find(id);
-            return View(checkingAccount.Transactions.ToList());
+            return View(checkingAccount.Transactions.ToList());            
         }
 
         // GET: CheckingAccount/Create

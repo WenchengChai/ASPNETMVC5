@@ -171,13 +171,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201407071700075_InitialCreate.cs" />
-    <Compile Include="Migrations\201407071700075_InitialCreate.Designer.cs">
-      <DependentUpon>201407071700075_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201407071846136_AccountNumberChanges.cs" />
-    <Compile Include="Migrations\201407071846136_AccountNumberChanges.Designer.cs">
-      <DependentUpon>201407071846136_AccountNumberChanges.cs</DependentUpon>
+    <Compile Include="Migrations\201407242008469_InitialCreate.cs" />
+    <Compile Include="Migrations\201407242008469_InitialCreate.Designer.cs">
+      <DependentUpon>201407242008469_InitialCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -207,7 +203,9 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
     <None Include="Properties\PublishProfiles\ATMPublishProfile.pubxml" />
-    <None Include="Properties\PublishProfiles\atmtest12.pubxml" />
+    <None Include="Properties\PublishProfiles\atmtest21.pubxml" />
+    <None Include="Properties\PublishProfiles\automatedtellermachine1.pubxml" />
+    <None Include="Properties\PublishProfiles\File System.pubxml" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -264,6 +262,9 @@
     <Content Include="Views\CheckingAccount\List.cshtml" />
     <Content Include="Views\Home\_ContactThanks.cshtml" />
     <Content Include="Views\CheckingAccount\Statement.cshtml" />
+    <None Include="Web.Test.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -273,16 +274,16 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201407071700075_InitialCreate.resx">
-      <DependentUpon>201407071700075_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201407071846136_AccountNumberChanges.resx">
-      <DependentUpon>201407071846136_AccountNumberChanges.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201407242008469_InitialCreate.resx">
+      <DependentUpon>201407242008469_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Test|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />

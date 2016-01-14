@@ -13,7 +13,7 @@ namespace AutomatedTellerMachine.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201407071700075_InitialCreate"; }
+            get { return "201407242008469_InitialCreate"; }
         }
         
         string IMigrationMetadata.Source
