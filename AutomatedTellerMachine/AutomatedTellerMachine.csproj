@@ -262,6 +262,8 @@
     <Content Include="Views\CheckingAccount\List.cshtml" />
     <Content Include="Views\Home\_ContactThanks.cshtml" />
     <Content Include="Views\CheckingAccount\Statement.cshtml" />
+    <Content Include="Views\Transaction\QuickCashInsufficientFunds.cshtml" />
+    <Content Include="Views\Transaction\Withdrawal.cshtml" />
     <None Include="Web.Test.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
