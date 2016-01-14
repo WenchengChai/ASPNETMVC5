@@ -1,4 +1,4 @@
-2015-10-01 12:00:57,.gitignore
+2016-01-14 15:59:43,.gitignore
 2015-10-01 11:50:10,.gitmeta.csv
 2014-07-06 10:44:18,AutomatedTellerMachine.sln
 2014-07-07 16:45:56,AutomatedTellerMachine\App_Start\BundleConfig.cs
@@ -6,7 +6,7 @@
 2014-07-06 10:43:44,AutomatedTellerMachine\App_Start\IdentityConfig.cs
 2014-07-07 11:21:34,AutomatedTellerMachine\App_Start\RouteConfig.cs
 2014-07-06 10:43:44,AutomatedTellerMachine\App_Start\Startup.Auth.cs
-2014-07-08 03:52:46,AutomatedTellerMachine\AutomatedTellerMachine.csproj
+2014-07-08 07:47:26,AutomatedTellerMachine\AutomatedTellerMachine.csproj
 2014-07-06 10:56:46,AutomatedTellerMachine\AutomatedTellerMachine.Tests\App.config
 2014-07-06 10:57:30,AutomatedTellerMachine\AutomatedTellerMachine.Tests\AutomatedTellerMachine.Tests.csproj
 2014-07-06 10:44:10,AutomatedTellerMachine\AutomatedTellerMachine.Tests\Controllers\HomeControllerTest.cs
@@ -20,7 +20,8 @@
 2014-07-06 10:56:00,AutomatedTellerMachine\Content\bootstrap-theme.min.css
 2014-07-08 03:44:52,AutomatedTellerMachine\Content\images\logo.png
 2014-07-07 17:28:36,AutomatedTellerMachine\Content\Site.css
-2014-07-06 10:43:44,AutomatedTellerMachine\Controllers\AccountController.cs
+2014-07-08 07:51:08,AutomatedTellerMachine\Controllers\AccountController.cs
+2014-07-25 03:19:04,AutomatedTellerMachine\Controllers\CheckingAccountController.cs
 2014-07-25 03:01:30,AutomatedTellerMachine\Controllers\HomeController.cs
 2014-07-06 10:43:04,AutomatedTellerMachine\favicon.ico
 2014-07-06 10:56:00,AutomatedTellerMachine\fonts\glyphicons-halflings-regular.eot
@@ -29,8 +30,16 @@
 2014-07-06 10:56:00,AutomatedTellerMachine\fonts\glyphicons-halflings-regular.woff
 2014-07-06 10:43:04,AutomatedTellerMachine\Global.asax
 2014-07-06 10:43:44,AutomatedTellerMachine\Global.asax.cs
-2014-07-06 10:43:44,AutomatedTellerMachine\Models\AccountViewModels.cs
-2014-07-06 10:43:44,AutomatedTellerMachine\Models\IdentityModels.cs
+2014-07-08 07:44:04,AutomatedTellerMachine\Migrations\201407071700075_InitialCreate.cs
+2014-07-08 07:44:06,AutomatedTellerMachine\Migrations\201407071700075_InitialCreate.Designer.cs
+2014-07-08 07:44:04,AutomatedTellerMachine\Migrations\201407071700075_InitialCreate.resx
+2014-07-08 07:46:14,AutomatedTellerMachine\Migrations\201407071846136_AccountNumberChanges.cs
+2014-07-08 07:46:14,AutomatedTellerMachine\Migrations\201407071846136_AccountNumberChanges.Designer.cs
+2014-07-08 07:46:14,AutomatedTellerMachine\Migrations\201407071846136_AccountNumberChanges.resx
+2014-07-08 07:55:34,AutomatedTellerMachine\Migrations\Configuration.cs
+2014-07-08 05:31:06,AutomatedTellerMachine\Models\AccountViewModels.cs
+2014-07-08 07:55:22,AutomatedTellerMachine\Models\CheckingAccount.cs
+2014-07-08 05:58:40,AutomatedTellerMachine\Models\IdentityModels.cs
 2014-07-07 11:08:04,AutomatedTellerMachine\MyLoggingFilter.cs
 2014-07-06 10:56:38,AutomatedTellerMachine\packages.config
 2014-07-06 10:43:04,AutomatedTellerMachine\Project_Readme.html
@@ -65,9 +74,11 @@
 2014-07-06 10:43:44,AutomatedTellerMachine\Views\Account\ForgotPasswordConfirmation.cshtml
 2014-07-06 10:43:44,AutomatedTellerMachine\Views\Account\Login.cshtml
 2014-07-06 10:43:44,AutomatedTellerMachine\Views\Account\Manage.cshtml
-2014-07-06 10:43:44,AutomatedTellerMachine\Views\Account\Register.cshtml
+2014-07-08 05:31:06,AutomatedTellerMachine\Views\Account\Register.cshtml
 2014-07-06 10:43:44,AutomatedTellerMachine\Views\Account\ResetPassword.cshtml
 2014-07-06 10:43:44,AutomatedTellerMachine\Views\Account\ResetPasswordConfirmation.cshtml
+2014-07-08 05:05:40,AutomatedTellerMachine\Views\CheckingAccount\Create.cshtml
+2014-07-25 03:15:18,AutomatedTellerMachine\Views\CheckingAccount\Details.cshtml
 2014-07-07 15:27:32,AutomatedTellerMachine\Views\Home\_ViewStart.cshtml
 2014-07-06 10:43:04,AutomatedTellerMachine\Views\Home\About.cshtml
 2014-07-25 02:34:12,AutomatedTellerMachine\Views\Home\Contact.cshtml
