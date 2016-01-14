@@ -6,7 +6,7 @@
 2014-07-06 10:43:44,AutomatedTellerMachine\App_Start\IdentityConfig.cs
 2014-07-07 11:21:34,AutomatedTellerMachine\App_Start\RouteConfig.cs
 2014-07-08 10:58:06,AutomatedTellerMachine\App_Start\Startup.Auth.cs
-2014-07-25 06:00:08,AutomatedTellerMachine\AutomatedTellerMachine.csproj
+2014-07-25 08:36:34,AutomatedTellerMachine\AutomatedTellerMachine.csproj
 2014-07-09 07:32:36,AutomatedTellerMachine\AutomatedTellerMachine.Tests\App.config
 2014-07-09 07:35:24,AutomatedTellerMachine\AutomatedTellerMachine.Tests\AutomatedTellerMachine.Tests.csproj
 2014-07-09 07:32:34,AutomatedTellerMachine\AutomatedTellerMachine.Tests\packages.config
@@ -49,7 +49,8 @@
 2014-07-06 10:43:04,AutomatedTellerMachine\Project_Readme.html
 2014-07-06 10:43:06,AutomatedTellerMachine\Properties\AssemblyInfo.cs
 2014-07-15 05:58:12,AutomatedTellerMachine\Properties\PublishProfiles\ATMPublishProfile.pubxml
-2014-07-25 15:30:56,AutomatedTellerMachine\Scripts\_references.js
+2014-07-25 08:36:32,AutomatedTellerMachine\Properties\PublishProfiles\atmtest12.pubxml
+2014-07-25 15:43:10,AutomatedTellerMachine\Scripts\_references.js
 2014-07-06 10:56:00,AutomatedTellerMachine\Scripts\bootstrap.js
 2014-07-06 10:56:00,AutomatedTellerMachine\Scripts\bootstrap.min.js
 2014-07-14 05:32:36,AutomatedTellerMachine\Scripts\jquery.unobtrusive-ajax.js
@@ -70,7 +71,7 @@
 2014-07-06 10:56:36,AutomatedTellerMachine\Scripts\respond.matchmedia.addListener.js
 2014-07-06 10:56:36,AutomatedTellerMachine\Scripts\respond.matchmedia.addListener.min.js
 2014-07-06 10:56:36,AutomatedTellerMachine\Scripts\respond.min.js
-2014-07-25 06:43:28,AutomatedTellerMachine\Services\CheckingAccountService.cs
+2014-07-21 10:45:28,AutomatedTellerMachine\Services\CheckingAccountService.cs
 2014-07-06 10:43:44,AutomatedTellerMachine\Startup.cs
 2014-07-06 10:43:04,AutomatedTellerMachine\Views\_ViewStart.cshtml
 2014-07-06 10:43:44,AutomatedTellerMachine\Views\Account\_ChangePasswordPartial.cshtml
@@ -90,7 +91,7 @@
 2014-07-08 05:05:40,AutomatedTellerMachine\Views\CheckingAccount\Create.cshtml
 2014-07-08 04:44:36,AutomatedTellerMachine\Views\CheckingAccount\Details.cshtml
 2014-07-08 11:50:32,AutomatedTellerMachine\Views\CheckingAccount\List.cshtml
-2014-07-25 15:37:34,AutomatedTellerMachine\Views\CheckingAccount\Statement.cshtml
+2014-07-25 15:43:58,AutomatedTellerMachine\Views\CheckingAccount\Statement.cshtml
 2014-07-14 05:27:52,AutomatedTellerMachine\Views\Home\_ContactThanks.cshtml
 2014-07-06 10:43:04,AutomatedTellerMachine\Views\Home\About.cshtml
 2014-07-25 08:06:02,AutomatedTellerMachine\Views\Home\Contact.cshtml
@@ -103,3 +104,5 @@
 2014-07-25 02:40:38,AutomatedTellerMachine\Web.config
 2014-07-06 10:43:04,AutomatedTellerMachine\Web.Debug.config
 2014-07-06 10:43:04,AutomatedTellerMachine\Web.Release.config
+2014-07-19 10:43:38,AzureWeb.config
+2014-07-19 08:16:02,OnModelCreating.txt

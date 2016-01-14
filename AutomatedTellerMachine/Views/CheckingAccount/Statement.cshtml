@@ -1,5 +1,5 @@
-﻿@model IEnumerable<AutomatedTellerMachine.Models.Transaction>
-@using Newtonsoft.Json;
+﻿@using Newtonsoft.Json;
+@model IEnumerable<AutomatedTellerMachine.Models.Transaction>
 @{
     ViewBag.Title = "Statement";
 }
@@ -33,21 +33,21 @@
 <script src="~/Scripts/knockout-3.1.0.js"></script>
 <script>
     function formattedPrice(amount) {
-        var price = amount.toFixed(2)        
+        var price = amount.toFixed(2)
         return price;
     }
 
-    function StatementViewModel() {        
+    function StatementViewModel() {
         var self = this;
 
         // properties
         self.transactions = @Html.Raw(JsonConvert.SerializeObject(Model, new JsonSerializerSettings{ReferenceLoopHandling = ReferenceLoopHandling.Ignore}));
-        self.pageSize = 5;    
+        self.pageSize = 5;
         self.lastPage = Math.ceil(self.transactions.length / self.pageSize);
         self.currentPage = ko.observable(1);
         self.currentTransactions = ko.computed(function(){
             var startIndex = (self.currentPage() - 1) * self.pageSize;
-            var endIndex = startIndex + self.pageSize;                        
+            var endIndex = startIndex + self.pageSize;
             return self.transactions.slice(startIndex, endIndex);
         });
 
@@ -58,7 +58,7 @@
         self.previousPage = function(){
             self.currentPage(self.currentPage() - 1);
         };
-    };    
+    };
 
-    ko.applyBindings(new StatementViewModel());    
+    ko.applyBindings(new StatementViewModel());
 </script>
